@@ -24,3 +24,14 @@ if ($file2 -eq $file3) {
 } else {
     Write-Host "File2 and File3 are different."
 }
+
+# Move File2 if it matches File1
+if ($file1 -eq $file2) {
+    $duplicateFolder = "C:\Users\DREDAY\Desktop\nightshit-IT\DEDUPLICATE\Duplicates"
+
+    New-Item -ItemType Directory -Path $duplicateFolder -Force
+
+    Move-Item -Path "C:\Users\DREDAY\Desktop\nightshit-IT\DEDUPLICATE\TestFiles\File2.txt" -Destination $duplicateFolder
+
+    Write-Host "File2 was moved to the Duplicates folder!"
+}
