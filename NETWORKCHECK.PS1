@@ -1,5 +1,8 @@
 # Nightshift IT Network Check
 
+Write-Host "=== NETWORK ADAPTER ==="
+Get-NetAdapter | Format-Table Name, Status, LinkSpeed | Out-Host
+
 Write-Host "`n=== DNS LOOKUP ==="
 Resolve-DnsName "anroblez.github.io" | Format-Table Name, Type, IPAddress | Out-Host
 
