@@ -23,3 +23,5 @@ A beginner-friendly PowerShell script that performs a basic health check on a Wi
 
    ```powershell
    .\HealthCheck.ps1
+
+   I will use this script to bypass computer policy:  Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
