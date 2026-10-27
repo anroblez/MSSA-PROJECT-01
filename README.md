@@ -5,7 +5,7 @@ A collection of beginner PowerShell scripts created to practice system administr
 ## What the Project Does
 
 - **Health check:** Displays system information, disk space, service status, and internet connectivity.
-- **Network check:** Displays network adapter status, looks up DNS records, tests the connection to a website, and opens the Nightshift IT website.
+- **Network check:** Displays network adapter status, looks up DNS records, tests the connection to a website, and opens The Night Desk website.
 - **Create test files:** Creates three sample files, including two with matching content.
 - **Check for duplicates:** Compares the test files and moves a duplicate into a separate folder.
 - **Run project:** Runs the scripts in sequence.
