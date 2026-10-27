@@ -39,3 +39,5 @@ The scripts can also be run individually:
 I created this project during Microsoft Software & Systems Academy (MSSA) to practice PowerShell and apply concepts from Server and Cloud Administration. The project helped me practice system checks, DNS, network troubleshooting, and working with files.
 
    I will use this script to bypass computer policy:  Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+   Thank you for your time! 
